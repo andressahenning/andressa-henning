@@ -29,7 +29,9 @@ Para configurar e executar este projeto localmente, siga os passos abaixo:
 ### :pencil2: Desafios enfrentados
 
 Seguir as medidas fixas do Figma para o código apresentou alguns desafios significativos. Cada detalhe de design precisava ser traduzido com precisão para garantir a fidelidade visual do projeto assim como sua responsividade.
-No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma versão mobile 320px e outra desktop 1440 conforme protótipo. Mas irei adicionar mais flexibilidade para que o site fique responsivo em diferentes telas.
+
+No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma versão mobile 320px e outra desktop 1440px conforme protótipo. Mas irei adicionar mais flexibilidade para que o site fique responsivo em diferentes telas.
+
 Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização do projeto, por isso a principal funcionalidade a ser trabalhada é a responsividade para diferentes dimensões de tela.
 
 ### :rocket: Resultado
