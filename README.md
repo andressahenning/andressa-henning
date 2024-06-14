@@ -26,7 +26,7 @@ Para configurar e executar este projeto localmente, siga os passos abaixo:
     - versão desktop:
         1440 x 1080
 
-### :bookmark: Desafios enfrentados
+### :pencil2: Desafios enfrentados
 
 Seguir as medidas fixas do Figma para o código apresentou alguns desafios significativos. Cada detalhe de design precisava ser traduzido com precisão para garantir a fidelidade visual do projeto assim como sua responsividade.
 No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma versão mobile 320px e outra desktop 1440 conforme protótipo. Mas irei adicionar mais flexibilidade para que o site fique responsivo em diferentes telas.
@@ -34,5 +34,6 @@ Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização 
 
 ### :rocket: Resultado
 #### :iphone: Versão mobile
-
+https://github.com/andressahenning/andressa-henning/assets/144277689/f05b2321-383a-4b3d-8897-add4ef802a2b
 ##### :computer: Versão desktop
+https://github.com/andressahenning/andressa-henning/assets/144277689/dc8c272b-22f1-4edd-9311-534d6bf1c65e
