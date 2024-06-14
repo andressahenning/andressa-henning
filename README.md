@@ -1,17 +1,21 @@
 # Teste FrontEnd UpNext
 
-### Sobre o Teste
+## Sobre o Teste
 
 Neste projeto, desenvolvi o teste proposto pela empresa UpNext para uma vaga de estágio de desenvolvimento frontEnd. 
 O objetivo do projeto é criar um catálogo interativo de plantas onde os usuários podem verificar as opções de plantas que ele pode adquirir de acordo com as suas preferências. 
 
-### :hammer: Tecnologias Utilizadas
+##
+
+## :hammer: Tecnologias Utilizadas
 
  - HTML5
  - scss / css3
  - JavaScript
 
-### :computer: Configuração para visualização
+##
+
+## :computer: Configuração para visualização
 Para configurar e executar este projeto localmente, siga os passos abaixo:
 
  1. Clone o repositório:
@@ -25,8 +29,9 @@ Para configurar e executar este projeto localmente, siga os passos abaixo:
         320 x 658
     - versão desktop:
         1440 x 1080
+##
 
-### :pencil2: Desafios enfrentados
+## :pencil2: Desafios enfrentados
 
 Seguir as medidas fixas do Figma para o código apresentou alguns desafios significativos. Cada detalhe de design precisava ser traduzido com precisão para garantir a fidelidade visual do projeto assim como sua responsividade.
 
@@ -34,8 +39,10 @@ No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma 
 
 Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização do projeto, por isso a principal funcionalidade a ser trabalhada é a responsividade para diferentes dimensões de tela.
 
-### :rocket: Resultado
-#### :iphone: Versão mobile
+##
+
+## :rocket: Resultado
+### :iphone: Versão mobile
 https://github.com/andressahenning/andressa-henning/assets/144277689/f05b2321-383a-4b3d-8897-add4ef802a2b
-##### :computer: Versão desktop
+#### :computer: Versão desktop
 https://github.com/andressahenning/andressa-henning/assets/144277689/dc8c272b-22f1-4edd-9311-534d6bf1c65e
