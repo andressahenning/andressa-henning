@@ -1,17 +1,156 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <title>YpNext FrontEnd Test - Greenthumb</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./index.scss" />
-  </head>
-
-  <body>
-    <img src="images/icons/logo-white.svg" alt="Greenthumb" />
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando...</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style/index.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="cabecalho">
+                <img id="logo" src="images/icons/logo-white.svg" alt="Greenthumb" />
+                <h1>Find your next green friend</h1>
+                <img id="arrow-down" src="images/icons/arrow-down.svg" alt="arrow-down">
+            </div>
+            <div class="header_img"></div>
+            <div class="header_imgRight"></div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- QUESTIONS CONTAINER -->
+            <div class="questions-container">
+                <ul>
+                    <li class="sunlight">
+                        <img src="images/illustrations/sun.png" alt="Sun">
+                        <p><strong>1.</strong> Set the amount of <strong>sunlight</strong> your plant will get.</p>
+                        <select name="" id="dropdown_sunlight" class="main_select" >
+                          <ul class="option">
+                            <li class="option"><option value="" disabled selected>Select...</option></li>
+                            <li class="option"><option value="1">no</option></li>
+                            <li class="option"><option value="2">low</option></li>
+                            <li class="option"><option value="3">high</option></li>
+                          </ul>
+                        </select>
+                    </li>
+                    <li class="water">
+                        <img src="images/illustrations/wateringcan.png" alt="wateringcan">
+                        <p><strong>2.</strong> How often do you want to <strong>water</strong> your plant? </p>
+                        <select name="" id="dropdown_water" class="main_select" >
+                          <option value="" disabled selected>Select...</option>
+                          <option value="1">regularly</option>
+                          <option value="2">daily</option>
+                          <option value="3">rarely</option>
+                        </select>
+                    </li>
+                    <li class="pets">
+                        <img src="images/illustrations/dog.png" alt="dog">
+                        <p><strong>3.</strong> Do you have pets? Do they <strong>chew</strong> plants?</p>
+                        <select name="" id="dropdown_pets" class="main_select" >
+                            <option value="" disabled selected>Select...</option>
+                            <option value="1">true</option>
+                            <option value="2">false</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <!-- CONTAINER NO-RESULTS -->
+            <div class="no-results-container">
+                <div class="no-results">
+                    <div>
+                        <h2>No results yet...</h2>
+                        <p>Use the filters to find the plant that best fits your environment :)</p>
+                    </div>
+                    <img src="images/illustrations/no-results.png" alt="no-results">
+                </div>
+            </div>
+            <!-- PLANTS LIST -->
+            <div class="plants-list plants-list-container" style="display: none;">
+                <div class="title-list" style="display: none;">
+                    <img src="images/illustrations/pick.png" alt="Hand holding a plant">
+                    <h2>Our picks for you</h2>
+                </div>
+                <!-- COMBINATION HIGH SUN -->
+                <div class="combination1 combinations" style="display: none;">
+                    <ul>
+                      <li class="plant1 plant-layout">
+                        <div class="layout-img"><img id="euphorbia" src="images/plant photos/euphorbia-eritrea.png" alt="euphorbia-eritrea"></div>
+                        <p>Euphorbia eritrea</p>
+                        <span>$25</span>
+                      </li>
+                      <li class="plant2 plant-layout">
+                        <div class="layout-img"><img id="succuleent" src="images/plant photos/succulent-bowl.png" alt="Succuleent Bowl"></div>
+                        <p>Succuleent Bowl</p>
+                        <span>$30</span>
+                      </li>
+                      <li class="plant3 plant-layout">
+                        <div class="layout-img"><img id="bunny-ears" src="images/plant photos/bunny-ears-cacti.png" alt="Bunny ears cacti"></div>
+                        <p>Bunny ears cacti</p>
+                        <span>$20</span>
+                      </li>
+                    </ul>
+                </div>
+                <!-- COMBINATION HIGH/LOW SUN -->
+                <div class="combination2 combinations">
+                    <ul>
+                        <li class="plant1 plant-layout">
+                            <div class="layout-img"><img id="ficus-lyrata" src="images/plant photos/ficus-lyrata.png" alt="Ficus Lyrata"></div>
+                            <p>Ficus Lyrata</p>
+                            <span>$30</span>
+                        </li>                           
+                    </ul>
+                </div>
+                <!-- COMBINATION LOW SUN -->
+                <div class="combination3 combinations">
+                    <ul>
+                        <li class="plant1 plant-layout">
+                            <div class="layout-img"><img id="ficus-lyrata" src="images/plant photos/ficus-lyrata.png" alt="Ficus Lyrata"></div>
+                            <p>Ficus Lyrata</p>
+                            <span>$30</span>
+                        </li>
+                        <li class="plant2 plant-layout">
+                            <div class="layout-img"><img id="bamboo" src="images/plant photos/lucky-bamboo.png" alt="Bamboo"></div>
+                            <p>Bamboo</p>
+                            <span>$15</span>
+                        </li>
+                        <li class="plant3 plant-layout">
+                            <div class="layout-img"><img id="ponytail" src="images/plant photos/ponytail-palm.png" alt="Ponytail Pam"></div>
+                            <p>Ponytail Pam</p>
+                            <span>$50</span>
+                        </li>               
+                    </ul>
+                </div>
+                <!-- COMBINATION NO SUN -->
+                <div class="combination4 combinations">
+                    <ul>
+                        <li class="plant1 plant-layout">
+                            <div class="layout-img"><img id="calathea" src="images/plant photos/calathea-triostar.png" alt="Calathea Triostar"></div>
+                            <p>Calathea Triostar</p>
+                            <span>$50</span>
+                        </li>
+                        <li class="plant2 plant-layout">
+                            <div class="layout-img"><img id="monstera" src="images/plant photos/monstera-deliciosa.png" alt="Monstera Deliciosa"></div>
+                            <p>Monstera Deliciosa</p>
+                            <span>$50</span>
+                        </li>               
+                    </ul>
+                </div>
+                <!-- COMBINATION NO SUN/WATER REGULARLY -->
+                <div class="combination5 combinations">
+                    <ul>
+                        <li class="plant1 plant-layout">
+                            <div class="layout-img"><img id="pilea" src="images/plant photos/pilea-peperomioides.png" alt="Pilea Peperomioides"></div>
+                            <p>Pilea Peperomioides</p>
+                            <span>$50</span>
+                        </li>                           
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
 </html>

@@ -1,0 +1,296 @@
+@media (width: 320px) {
+    header {
+        .container {
+            background-color: #75BC97;
+            position: absolute;
+            width: 320px;
+            height: 593px;
+            top: -1px;
+
+            .cabecalho {
+                background: url('../images/hero/mobile/mobile-leaves.png') no-repeat;
+                background-size: cover;
+                position: relative;
+                z-index: 2;
+                width: 320px;
+                height: 412px;
+
+                img {
+                    margin: 20px 0 40px 0px;
+                }
+
+                #logo {
+                    position: relative;
+                    width: 163.33px;
+                    height: 20px;
+                    top: 36px;
+                    left: 35px;
+                }
+
+                h1 {
+                    width: 281px;
+                    height: 144px;
+                    top: 87px;
+                    padding-left: 34px;
+              
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 48.76px;
+                    color: #ffffff;
+                }
+                #arrow-down {
+                    position: relative;
+                    width: 35px;
+                    height: 39px;
+                    top: -10px;
+                    left: 40px;
+                    color: #ffffff;
+                }
+            }
+            .header_img {
+                background: url('../images/hero/mobile/mobile-plantperson.png') no-repeat;
+                background-size: contain;  
+                position: absolute;
+                z-index: 1;  
+                width: 276px;
+                height: 234px;
+                top: 334px;
+                left: 22px;
+            }
+        }     
+    }
+    main {
+        .container {
+            position: absolute;
+            width: 320px;
+            height: 1080px;
+            top: 593px;
+            // QUESTIONS CONTAINER
+            .questions-container {
+                position: initial;
+                width: 320px;
+                height: 600px;
+                top: 411px;
+            
+                ul li {
+                    list-style: none;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #797979;
+                }
+                .main_select {
+                    height: 40px;
+                    color: #DBDBDB;
+                    border-color: #848484;
+                    border-radius: 50px;
+                }
+                option {
+                    color: #797979
+                }
+            }
+            // QUESTIONS STYLE
+            .sunlight {
+                position: absolute;
+                width: 250px;
+                height: 318px;
+                top: 10px;
+                left: 37px;
+            
+                img {
+                    width: 75px;
+                    height: 75px;
+                    left: 1px;
+                }
+                 p {
+                    width: 219px;
+                    height: 44px;
+                    top: 81px;
+                    left: 3px;
+                }
+                #dropdown_sunlight {
+                    width: 249px;
+                    top: 149px;
+                    left: 1px;
+                }
+            }
+            .water {
+                position: absolute;
+                width: 245px;
+                height: 328px;
+                top: 210px;
+                left: 40px;
+
+                img {
+                    width: 103px;
+                    height: 75px;
+                    left: 105px;
+                    transform: scaleX(-1);
+                }
+                p {
+                    width: 203px;
+                    height: 44px;
+                    top: 90px;
+                    left: 3px;
+                }
+                #dropdown_water {
+                width: 245px;
+                top: 159px;
+                }
+            }
+            .pets {
+                position: absolute;
+                width: 248px;
+                height: 270px;
+                top: 410px;
+                left: 37px;
+
+                img {
+                    width: 75px;
+                    height: 62px;
+                }
+                p {
+                    width: 190px;
+                    height: 44px;
+                    top: 75px;
+                }
+                #dropdown_pets {
+                    width: 248px;
+                    top: 145px;
+                }
+            }
+            // NO-RESULTS CONTAINER
+            .no-results-container {
+                position: absolute;
+                width: 320px;
+                height: 486px;
+                background-color: #F6F6F6;
+
+                .no-results {
+                    position: absolute;
+                    width: 250px;
+                    height: 108px;
+                    // top: 1378px;
+                    left: 35px;
+                    background-color: #f6f6f6;
+
+                    h2 {
+                        font-weight: 700;
+                        font-size: 45px;
+                        line-height: 54.86px;
+                        color: #A9A9A9;
+                    }
+                    p {
+                        margin-top: 10px;
+                        width: 219px;
+                        height: 81px;
+                        top: 1502px;
+                        left: 37px;
+                
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 27px;
+                        color: #A9A9A9;
+                    }
+                    img {
+                        position: sticky;
+                        margin-top: 40px;
+                        width: 86px;
+                        height: 166px;
+                        top: 1620px;
+                        left: 107px;
+                    }
+                }
+            }
+            // PLANTS LIST CONTAINER
+            .plants-list-container {
+                position: absolute;
+                width: 320px;
+                height: 1600px;
+                top: 600px;
+                background-color: #F6F6F6;
+            }
+            .title-list {
+                img {
+                    position: absolute;
+                    width: 146px;
+                    height: 72px;
+                    top: 10px;
+                    left: 46px;      
+                }
+                h2 {
+                    position: absolute;
+                    width: 243px;
+                    height: 98px;
+                    top: 80px;
+                    left: 48px;
+                    
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 49px;
+                    color: #0C261C;
+                }
+            }
+            ul li {
+                list-style-type: none;
+            }
+            .combinations {
+                display: none;
+            }
+            // PLANT BOX LAYOUT
+            .plant-layout {
+                display: flex;
+                align-items: stretch;
+                flex-direction: column;
+                justify-content: center;
+                position: absolute;
+                width: 258px;
+                height: 300px;
+                left: 36px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #FFFFFF;
+
+                p {
+                    width: 190px;
+                    height: 28px;
+                    // top: 230px;
+            
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #1E6B4E;
+                }
+                span {
+                    width: 59px;
+                    height: 28px;
+                    // top: 249px;     
+            
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: #1E6B4E;
+                }
+                .layout-img {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            // PLANTS POSITIONS
+            .plant1 {
+                top: 234px;
+            }
+            .plant2 {
+                top: 587px;
+            }
+            .plant3 {
+                top: 940px;
+            }
+            .plant4 {  
+                top: 1293px;   
+            }
+        }
+
+    }
+}

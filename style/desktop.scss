@@ -1,0 +1,320 @@
+@mixin questions-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+@media (min-width: 1440px) {
+    body {
+        position: absolute;
+    }
+    header {
+        .container {
+            position: absolute;
+            width: 1440px;
+            height: 500px;
+            background-color: #75BC97;
+
+            .cabecalho {
+                position: relative;
+                z-index: 2;
+                background: url('../images/hero/desktop/left-leaves.png') no-repeat;
+                background-size: cover;
+                width: 862px;
+                height: 500px;
+                
+                #logo {
+                    position: relative;
+                    width: 209px;
+                    height: 25px;
+                    top: 57px;
+                    left: 288px;
+                }
+                h1 {
+                    position: absolute;
+                    width: 800px;
+                    height: 252px;
+                    top: 124px;
+                    padding-left: 288px;
+              
+                    font-weight: 700;
+                    font-size: 70px;
+                    line-height: 85.33px;
+                    color: #ffffff;
+                }
+                #arrow-down {
+                    position: absolute;
+                    height: 39px;
+                    top: 407px;
+                    left: 291px;
+                    color: #ffffff;
+                }
+            }
+            .header_img {
+                background: url('../images/hero/desktop/plantperson.png') no-repeat;
+                background-size: contain;  
+                position: absolute;
+                z-index: 1;  
+                width: 335px;
+                height: 428px;
+                top: 36px;
+                left: 800px;
+            }
+            .header_imgRight {
+                background: url('../images/hero/desktop/right-leaves.png') no-repeat;
+                background-size: contain;  
+                position: absolute;
+                z-index: 1;  
+                width: 361px;
+                height: 500px;
+                top: 0;
+                left: 1079px;
+            } 
+        }     
+    }
+    main {
+        .container {
+            width: 1440px;
+            height: 878px;
+            top: 500px;
+            // QUESTIONS CONTAINER
+            .questions-container {
+                position: absolute;
+                width: 1440px;
+                height: 299px;
+                top: 500px;
+                left: -5px;
+            
+                ul li {
+                    list-style: none;     
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #797979;
+
+                .main_select {
+                    // width: 120px;
+                    // height: 40px;
+                    color: #DBDBDB;
+                    border-color: #848484;
+                    border-radius: 50px;                  
+                }
+                option {
+                    color: #797979
+                }                 
+            }
+            // QUESTIONS 
+            .sunlight {
+                @include questions-display();
+                position: absolute;
+                width: 221px;
+                height: 316px;
+                // top: 548px;
+                left: 270px;
+
+                img {
+                    width: 75px;
+                    height: 75px;
+                }
+                p {
+                    width: 219px;
+                    height: 44px;
+                    top: 81px;
+                    left: 2px;
+                }
+                #dropdown_sunlight {
+                    width: 219px;
+                    height: 40px;
+                    top: 149px;
+                }
+            }
+            .water {
+                @include questions-display();
+                position: absolute;
+                width: 219px;
+                height: 328px;
+                // top: 547px;
+                left: 606px;
+
+                img {
+                    width: 103px;
+                    height: 75px;
+                    left: 105px;
+                    transform: scaleX(-1);
+                }
+                p {
+                    width: 203px;
+                    height: 44px;
+                    top: 90px;
+                    left: 3px;
+                }
+                #dropdown_water {
+                    width: 219px;
+                    height: 40px;
+                    top: 159px;
+                }
+            }
+            .pets {
+                @include questions-display();
+                position: absolute;
+                width: 219px;
+                height: 270px;
+                top: 35px;
+                left: 928px;
+
+                img {
+                    width: 75px;
+                    height: 62px;
+                }
+                p {
+                    width: 190px;
+                    height: 44px;
+                    top: 45px;
+                }
+                #dropdown_pets {
+                    width: 219px;
+                    height: 40px;
+                    top: 145px;
+                }
+            }  
+            }
+            // NO-RESULTS CONTAINER
+            .no-results-container {
+                position: absolute;
+                width: 1440px;
+                height: 324px;
+                top: 846px;
+                background-color: #F6F6F6;
+
+                .no-results {
+                    position: relative;
+
+                    h2 {
+                        position: absolute;
+                        width: 442px;
+                        height: 54px;
+                        top: 50px;
+                        left: 290px;
+            
+                        font-weight: 700;
+                        font-size: 45px;
+                        line-height: 54.86px;
+                        color: #A9A9A9;
+                    }
+                    p {
+                        position: absolute;
+                        width: 219px;
+                        height: 81px;
+                        top: 100px;
+                        left: 292px;
+                
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 27px;
+                        color: #A9A9A9;
+                    }
+                    img {
+                        position: absolute;
+                        width: 106px;
+                        height: 205px;
+                        top: 30px;
+                        left: 842px;
+                    }
+                }
+            }
+            // PLANT LIST CONTAINER
+            .plants-list-container {
+                position: absolute;
+                width: 1440px;
+                height: 579px;
+                top: 846px;
+                background-color: #F6F6F6;
+
+                .title-list > img {
+                    position: absolute;
+                    width: 158px;
+                    height: 78px;
+                    top: 50px;
+                    left: 271px;      
+                }
+            }
+            .plants-list h2 {
+                position: absolute;
+                width: 517px;
+                height: 66px;
+                top: 150px;
+                left: 271px;
+    
+                font-size: 55px;
+                font-weight: 700;
+                line-height: 67.05px;
+                text-align: left;            
+                color: #0C261C;
+            }
+            ul li {
+                position: absolute;
+                padding: 0;
+                list-style-type: none;
+            }
+            .combinations {
+                display: none;
+            }
+            // PLANT BOX LAYOUT
+            .plant-layout {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: stretch;
+                position: absolute;
+                width: 206px;
+                height: 280px;
+                top: 250px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: #FFFFFF;
+    
+                p {
+                    width: 190px;
+                    height: 28px;
+                    top: 175px;
+                    left: 19px;
+            
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    text-align: left;
+                    color: #1E6B4E;
+                }
+                span {
+                    width: 59px;
+                    height: 28px;
+                    top: 205px;
+                    left: 19px;       
+            
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: #257556;
+                }
+            }
+            .layout-img {
+                display: flex;
+                justify-content: center;
+            }
+            // PLANTS POSITIONS
+            .plant1 {
+                left: 270px;
+            }
+            .plant2 {
+                left: 511px;
+            }
+            .plant3 {
+                left: 753px;    
+            }
+            .plant4 {
+                left: 994px;      
+            }
+        }
+    }    
+}

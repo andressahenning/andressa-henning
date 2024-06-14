@@ -1,0 +1,291 @@
+@media (min-width: 1440px) {
+  body {
+    position: absolute;
+  }
+  header .container {
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    background-color: #75BC97;
+  }
+  header .container .cabecalho {
+    position: relative;
+    z-index: 2;
+    background: url("../images/hero/desktop/left-leaves.png") no-repeat;
+    background-size: cover;
+    width: 862px;
+    height: 500px;
+  }
+  header .container .cabecalho #logo {
+    position: relative;
+    width: 209px;
+    height: 25px;
+    top: 57px;
+    left: 288px;
+  }
+  header .container .cabecalho h1 {
+    position: absolute;
+    width: 800px;
+    height: 252px;
+    top: 124px;
+    padding-left: 288px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85.33px;
+    color: #ffffff;
+  }
+  header .container .cabecalho #arrow-down {
+    position: absolute;
+    height: 39px;
+    top: 407px;
+    left: 291px;
+    color: #ffffff;
+  }
+  header .container .header_img {
+    background: url("../images/hero/desktop/plantperson.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    width: 335px;
+    height: 428px;
+    top: 36px;
+    left: 800px;
+  }
+  header .container .header_imgRight {
+    background: url("../images/hero/desktop/right-leaves.png") no-repeat;
+    background-size: contain;
+    position: absolute;
+    z-index: 1;
+    width: 361px;
+    height: 500px;
+    top: 0;
+    left: 1079px;
+  }
+  main .container {
+    width: 1440px;
+    height: 878px;
+    top: 500px;
+  }
+  main .container .questions-container {
+    position: absolute;
+    width: 1440px;
+    height: 299px;
+    top: 500px;
+    left: -5px;
+  }
+  main .container .questions-container ul li {
+    list-style: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #797979;
+  }
+  main .container .questions-container ul li .main_select {
+    color: #DBDBDB;
+    border-color: #848484;
+    border-radius: 50px;
+  }
+  main .container .questions-container ul li option {
+    color: #797979;
+  }
+  main .container .questions-container .sunlight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    width: 221px;
+    height: 316px;
+    left: 270px;
+  }
+  main .container .questions-container .sunlight img {
+    width: 75px;
+    height: 75px;
+  }
+  main .container .questions-container .sunlight p {
+    width: 219px;
+    height: 44px;
+    top: 81px;
+    left: 2px;
+  }
+  main .container .questions-container .sunlight #dropdown_sunlight {
+    width: 219px;
+    height: 40px;
+    top: 149px;
+  }
+  main .container .questions-container .water {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    width: 219px;
+    height: 328px;
+    left: 606px;
+  }
+  main .container .questions-container .water img {
+    width: 103px;
+    height: 75px;
+    left: 105px;
+    transform: scaleX(-1);
+  }
+  main .container .questions-container .water p {
+    width: 203px;
+    height: 44px;
+    top: 90px;
+    left: 3px;
+  }
+  main .container .questions-container .water #dropdown_water {
+    width: 219px;
+    height: 40px;
+    top: 159px;
+  }
+  main .container .questions-container .pets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    width: 219px;
+    height: 270px;
+    top: 35px;
+    left: 928px;
+  }
+  main .container .questions-container .pets img {
+    width: 75px;
+    height: 62px;
+  }
+  main .container .questions-container .pets p {
+    width: 190px;
+    height: 44px;
+    top: 45px;
+  }
+  main .container .questions-container .pets #dropdown_pets {
+    width: 219px;
+    height: 40px;
+    top: 145px;
+  }
+  main .container .no-results-container {
+    position: absolute;
+    width: 1440px;
+    height: 324px;
+    top: 846px;
+    background-color: #F6F6F6;
+  }
+  main .container .no-results-container .no-results {
+    position: relative;
+  }
+  main .container .no-results-container .no-results h2 {
+    position: absolute;
+    width: 442px;
+    height: 54px;
+    top: 50px;
+    left: 290px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54.86px;
+    color: #A9A9A9;
+  }
+  main .container .no-results-container .no-results p {
+    position: absolute;
+    width: 219px;
+    height: 81px;
+    top: 100px;
+    left: 292px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #A9A9A9;
+  }
+  main .container .no-results-container .no-results img {
+    position: absolute;
+    width: 106px;
+    height: 205px;
+    top: 30px;
+    left: 842px;
+  }
+  main .container .plants-list-container {
+    position: absolute;
+    width: 1440px;
+    height: 579px;
+    top: 846px;
+    background-color: #F6F6F6;
+  }
+  main .container .plants-list-container .title-list > img {
+    position: absolute;
+    width: 158px;
+    height: 78px;
+    top: 50px;
+    left: 271px;
+  }
+  main .container .plants-list h2 {
+    position: absolute;
+    width: 517px;
+    height: 66px;
+    top: 150px;
+    left: 271px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67.05px;
+    text-align: left;
+    color: #0C261C;
+  }
+  main .container ul li {
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+  }
+  main .container .combinations {
+    display: none;
+  }
+  main .container .plant-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    position: absolute;
+    width: 206px;
+    height: 280px;
+    top: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+  }
+  main .container .plant-layout p {
+    width: 190px;
+    height: 28px;
+    top: 175px;
+    left: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #1E6B4E;
+  }
+  main .container .plant-layout span {
+    width: 59px;
+    height: 28px;
+    top: 205px;
+    left: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #257556;
+  }
+  main .container .layout-img {
+    display: flex;
+    justify-content: center;
+  }
+  main .container .plant1 {
+    left: 270px;
+  }
+  main .container .plant2 {
+    left: 511px;
+  }
+  main .container .plant3 {
+    left: 753px;
+  }
+  main .container .plant4 {
+    left: 994px;
+  }
+}/*# sourceMappingURL=desktop.css.map */

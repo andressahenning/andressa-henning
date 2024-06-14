@@ -1,61 +1,38 @@
 # Teste FrontEnd UpNext
 
-Olá,
- 
-Queremos saber um pouco mais das suas habilidades em HTML, CSS e JS!
+### Sobre o Teste
 
-Neste repositório constam alguns arquivos iniciais junto com todas as imagens necessárias.
+Neste projeto, desenvolvi o teste proposto pela empresa UpNext para uma vaga de estágio de desenvolvimento frontEnd. 
+O objetivo do projeto é criar um catálogo interativo de plantas onde os usuários podem verificar as opções de plantas que ele pode adquirir de acordo com as suas preferências. 
 
-## Objetivo
+### :hammer: Tecnologias Utilizadas
 
-Seu objetivo é construir uma aplicação sem uso de frameworks (Ex: NodeJS, React, Angular entre outros) de acordo com esse layout:
+ - HTML5
+ - scss / css3
+ - JavaScript
 
-- [Desktop](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A130)
-- [Mobile](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A297)
-- [Styleguide](https://www.figma.com/file/rA9ydy2sGCAjv6lKF1GzIm/UpNext-FrontEnd-Test?node-id=0%3A526)
+### :computer: Configuração para visualização
+Para configurar e executar este projeto localmente, siga os passos abaixo:
 
-A aplicação deve ser **responsiva**, portanto, se adaptar ao desktop e mobile.
+ 1. Clone o repositório:
+    ```ruby
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    ```
+ 2. Acesse a pasta e abra o arquivo `index.html` no seu navegador
+ 3. No navegador, acesse o DevTools com o botão direito do mouse ou com a tecla F12
+ 4. Configure as dimensões:
+    - versão mobile:
+        320 x 658
+    - versão desktop:
+        1440 x 1080
 
-## Funcionamento do JS
+### :bookmark: Desafios enfrentados
 
-Para que o projeto funcione como o desenhado, os selects devem trazer a lista de plantas de acordo com o que foi selecionado. Sendo estas as opções:
+Seguir as medidas fixas do Figma para o código apresentou alguns desafios significativos. Cada detalhe de design precisava ser traduzido com precisão para garantir a fidelidade visual do projeto assim como sua responsividade.
+No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma versão mobile 320px e outra desktop 1440 conforme protótipo. Mas irei adicionar mais flexibilidade para que o site fique responsivo em diferentes telas.
+Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização do projeto, por isso a principal funcionalidade a ser trabalhada é a responsividade para diferentes dimensões de tela.
 
-- sunlight ["no", "low", "high"]
-- water ["regularly", "daily", "rarely"]
-- pets [true, false]
+### :rocket: Resultado
+#### :iphone: Versão mobile
 
-No arquivo plants.json constam todas plantas e suas caracteristicas, a partir destas informações você pode criar a lista de plantas.
-Por exemplo:
-- Caso o usuário selecione a opção "low" no select "sunlight", deve ser apresentada a lista de plantas que contenham o valor de "sun" igual a "low".
-- Se na sequência o usuário selecionar a opção "true" no select "pets", deve ser apresentada a lista de plantas que contenham o valor de "toxicity" igual a "false", alem de limpar a seleção dos outros selects.
-
-** A lista de plantas pode ser gerada dinâmicamente pelo js, ou ser montada em html, com o js sendo responsável apenas por exibir/ocultar o resultado correto.
-
-## Como serei avaliado?
-
-Para facilitar o entendimento e deixar mais claro como usar melhor o tempo, você será avaliado sob essas dimensões abaixo, mas não deixe de dar o seu melhor caso não tenha alguma coisa na lista que você acredite ser bom, os detalhes contam :D !
-
-- Layout
-  - Fidelidade
-  - Responsividade
-- HTML
-  - Semantica
-  - Indentação e Organização de Código
-- CSS
-  - Legibilidade
-  - Organização
-  - Boas práticas
-  - Escalabilidade
-- JS
-  - Legibilidade
-  - Organização
-  - Boas práticas
-
-## Pronto para começar o desafio?
-
-- Faça um "fork" desse repositório na sua conta do Github
-- Crie uma branch com o seu nome e sobrenome ex: patrick-santos
-- Após completar o desafio, faça o merge da branch criada para master
-- Finalizando esses itens, envie o link do seu repositório para o email edson@upnext.com.br com cópia para administrativo@upnext.com.br
-
-** Valorizamos pessoas que queiram aprender, então caso tenha alguma dificuldade, ou não consiga realizar todo teste, pode entrar em contato comigo para te ajudar: edson@upnext.com.br
+##### :computer: Versão desktop
