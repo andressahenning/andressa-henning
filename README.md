@@ -41,7 +41,7 @@ Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização 
 
 ##
 
-### :high_brightness: Futuras atualizações
+## :high_brightness: Futuras atualizações
 
  - Personalizar as opções dos selects com ícones;
  - Mais informações das plantas;
@@ -50,9 +50,9 @@ Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização 
 
 ##
 
-### :rocket: Resultado
+## :rocket: Resultado
 
-### :iphone: Versão mobile
+#### :iphone: Versão mobile
 
 https://github.com/andressahenning/andressa-henning/assets/144277689/f05b2321-383a-4b3d-8897-add4ef802a2b
 
