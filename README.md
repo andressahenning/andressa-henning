@@ -32,6 +32,13 @@ Seguir as medidas fixas do Figma para o código apresentou alguns desafios signi
 No projeto trabalhei com as medidas fixas apresentadas no figma, então fiz uma versão mobile 320px e outra desktop 1440 conforme protótipo. Mas irei adicionar mais flexibilidade para que o site fique responsivo em diferentes telas.
 Por conta dessa limitação de telas, torna-se mais trabalhoso a visualização do projeto, por isso a principal funcionalidade a ser trabalhada é a responsividade para diferentes dimensões de tela.
 
+### :high_brightness: Futuras atualizações
+
+ - Personalizar as opções dos selects com ícones;
+ - Mais informações das plantas;
+ - Gerar a lista de plantas dinâmicamente pelo JS;
+ - Responsividade.
+
 ### :rocket: Resultado
 #### :iphone: Versão mobile
 
